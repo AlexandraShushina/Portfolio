@@ -35,6 +35,12 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
  .menuPositionLeft {
   margin-top: -3.5vw;
   margin-left: 1.5vw;
+  position: relative;
+ }
+ .menuPositionCenter {
+  margin-top: -3.5vw;
+  margin-left: 1.5vw;
+  position: relative;
  }
 /* Дополнительные */
 .zIndex {
