@@ -1,0 +1,28 @@
+@font-face {
+	font-family: 'IBM Plex Serif';
+	src: url('fonts/IBMPlexSerif-Medium.ttf') format('truetype'),
+        url('fonts/IBMPlexSerif-Medium.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 600;
+}
+@font-face {
+	font-family: 'IBM Plex Serif';
+	src: url('fonts/IBMPlexSerif-Regular.ttf') format('truetype'),
+        url('fonts/IBMPlexSerif-Regular.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 500;
+}
+@font-face {
+	font-family: 'Vela Sans';
+	src: url('fonts/VelaSans-Medium.ttf') format('truetype'),
+        url('fonts/VelaSans-Medium.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 600;
+}
+@font-face {
+	font-family: 'Vela Sans';
+	src: url('fonts/VelaSans-Regular.ttf') format('truetype'),
+        url('fonts/VelaSans-Regular.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 500;
+}
