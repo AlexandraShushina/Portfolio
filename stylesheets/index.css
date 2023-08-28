@@ -1,5 +1,5 @@
 /* Стили для всего документа */
-body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: 'IBM Plex Serif', serif;
+body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
     margin: 0 auto;
     display: block;
     position: relative;
@@ -13,6 +13,34 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
     position: relative;
     overflow: hidden;
   }
+ /* Текст */
+ p, a {
+  text-decoration: none;
+  color: var(--white);
+  font-size: 0.83vw;
+  line-height: ;
+  font-weight: 600;;
+ }
+ .ibmPlexSerif {
+  font-family: 'IBM Plex Serif';
+ }
+ .velaSans {
+  font-family: 'Vela Sans';
+ }
+ /* Меню */
+ .menuFlex {
+  display: flex;
+  gap: 1.5vw;
+ }
+ .menuPositionLeft {
+  margin-top: -3.5vw;
+  margin-left: 1.5vw;
+ }
+/* Дополнительные */
+.zIndex {
+  z-index: 100;
+}
+/* Рамка с вытачками */
   .frameWidth {
     display: block;
     width: 100vw;
