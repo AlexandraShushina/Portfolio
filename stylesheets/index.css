@@ -1,0 +1,67 @@
+/* Стили для всего документа */
+body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: 'IBM Plex Serif', serif;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+  }
+  .main {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    overflow: hidden;
+  }
+  .frameWidth {
+    display: block;
+    width: 100vw;
+    height: 1.56vw;
+    background-color: #5F64E7;
+    position: relative;
+  }
+  .frameHeight {
+    display: block;
+    width: 1.56vw;
+    height: 100vh;
+    background-color: #5F64E7;
+    position: relative;
+    top: -1.56vw;
+  }
+  .framesHeightFlex {
+    display: flex;
+    justify-content: space-between;
+  }
+  .recessLeftTop {
+    width: 19.11vw;
+    height: 4.84vw;
+    background-image: url(../images/recessLeftTop.svg);
+    background-size: 100%;
+  }
+  .recessCenterTop {
+    width: 10.83vw;
+    height: 3.44vw;
+    background-image: url(../images/recessCenterTop.svg);
+    background-size: 100%;
+  }
+  .recessRightTop {
+    width: 19.11vw;
+    height: 4.95vw;
+    background-image: url(../images/recessRightTop.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right 0;
+  }
+  .recessesTopFlex {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -1.6vw;
+  }
+  .recessesBottomFlex {
+    display: flex;
+    justify-content: space-between;
+  }
+  .frameWidthBottomPosition {
+    display: block;
+    top: -6.4vw;
+  }
