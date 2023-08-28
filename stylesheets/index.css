@@ -16,21 +16,21 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
   .frameWidth {
     display: block;
     width: 100vw;
-    height: 1.56vw;
+    height: 1.5vw;
     background-color: #5F64E7;
     position: relative;
   }
   .frameHeight {
     display: block;
-    width: 1.56vw;
+    width: 1.5vw;
     height: 100vh;
     background-color: #5F64E7;
     position: relative;
-    top: -1.56vw;
   }
   .framesHeightFlex {
     display: flex;
     justify-content: space-between;
+    margin-top: -6.3vw;
   }
   .recessLeftTop {
     width: 19.11vw;
@@ -57,11 +57,23 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
     justify-content: space-between;
     margin-top: -1.6vw;
   }
+  .recessLeftBottom {
+    width: 19.84vw;
+    height: 7.50vw;
+    background-image: url(../images/recessLeftBottom.svg);
+    background-size: 100%;
+  }
+  .recessRightBottom {
+    width: 18.33vw;
+    height: 7.50vw;
+    background-image: url(../images/recessRightBottom.svg);
+    background-size: 100%;
+  }
   .recessesBottomFlex {
     display: flex;
     justify-content: space-between;
+    margin-top: -7.45vw;
   }
   .frameWidthBottomPosition {
     display: block;
-    top: -6.4vw;
   }
