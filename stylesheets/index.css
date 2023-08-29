@@ -108,13 +108,15 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
     width: 19.11vw;
     height: 4.84vw;
     background-image: url(../images/recessLeftTop.svg);
-    background-size: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
   }
   .recessCenterTop {
     width: 10.83vw;
     height: 3.44vw;
     background-image: url(../images/recessCenterTop.svg);
-    background-size: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
   }
   .recessRightTop {
     width: 19.11vw;
@@ -123,6 +125,7 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right 0;
+    background-repeat: no-repeat;
   }
   .recessesTopFlex {
     display: flex;
@@ -133,13 +136,15 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
     width: 19.84vw;
     height: 7.50vw;
     background-image: url(../images/recessLeftBottom.svg);
-    background-size: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
   }
   .recessRightBottom {
     width: 18.33vw;
     height: 7.50vw;
     background-image: url(../images/recessRightBottom.svg);
-    background-size: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
   }
   .recessesBottomFlex {
     display: flex;
