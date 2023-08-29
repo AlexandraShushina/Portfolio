@@ -256,7 +256,7 @@ span {
     top: calc((100vh - 5.98vw)/2);
 } */
 /* Стрелки */
-button.owl-prev, button.owl-next {
+/* button.owl-prev, button.owl-next {
   position: absolute;
   top: 45%;
   margin-top: -10px;
@@ -267,4 +267,4 @@ button.owl-prev, button.owl-next {
 }
 .owl-next {
   right: 3vw;
-}
+} */
