@@ -11,8 +11,8 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
   margin: 0 auto;
   display: block;
   position: relative;
-  /* overflow-x: hidden;
-  overflow-y: hidden; */
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
  /* Текст */
 p, a {
@@ -82,7 +82,7 @@ p, a {
   padding-top: 0.7vw;
 }
 .pSmallPadding {
-  padding-top: 0.15vw;
+  padding-top: 0.s15vw;
 }
 /* Рамка с вытачками */
 .frameWidth {
@@ -173,28 +173,18 @@ p, a {
     background-image: url(../images/arrow.svg);
     background-size: 100%;
   }
-  /* .photoSequence {
-    width: 100vw;
-    height: 100vh;
-    top: -100vh;
-    background-image: url(../images/photoSequence.jpg);
-    background-size: cover;
-    position: relative;
-    z-index: -50;
-    background-repeat: no-repeat;
-    background-position: center;
-  } */
-  .hiddenRectangle:hover ~ .photoSequence {
+  /* Здесь должны быть ховеры, по которым становится виден текст и ещё второй фон */
+  .hiddenRectangle:hover ~ #firstSlide {
     background-image: url(../images/whiteTransperent.svg), url(../images/photoSequence.jpg);
     transition-delay: 0.2s;
     transition-duration: 0.4s;
     /* transition-timing-function: ease-in-out; */
   }
-  .photoSequence h1, .photoSequence h2 {
+  #firstSlide h1, #firstSlide h2 {
     opacity: 0;
   }
-  .hiddenRectangle:hover ~ .photoSequence h1,
-  .hiddenRectangle:hover ~ .photoSequence h2 {
+  .hiddenRectangle:hover ~ #firstSlide h1,
+  .hiddenRectangle:hover ~ #firstSlide h2 {
     transition-delay: 0.2s;
     transition-duration: 0.4s;
     opacity: 1;
@@ -208,10 +198,10 @@ p, a {
     top: 20vh;
     background-repeat: no-repeat;
   }
+  /* Слайдер */
   .home-demo {
     top: -100vh;
     position: relative;
-    z-index: -50;
     width: 100vw;
     height: 100vh;
   }
@@ -226,6 +216,7 @@ p, a {
     background-position: center;
     width: 100vw;
     height: 100vh;
+    z-index: -200;
   }
   #secondSlide {
     background-image: url(../images/photoSequence2.jpg);
@@ -234,6 +225,7 @@ p, a {
     background-position: center;
     width: 100vw;
     height: 100vh;
+    z-index: -200;
   }
 /* .owl-prev, .owl-next {
     height: 6.2vw;
@@ -259,15 +251,20 @@ span {
     cursor: pointer;
     top: calc((100vh - 5.98vw)/2);
 } */
-/* .owl-prev, .owl-next {
+/* Стрелки */
+button.owl-prev, button.owl-next {
   position: absolute;
-  top: 50%;
+  top: 45%;
   margin-top: -10px;
-  z-index: 400;
+  z-index: 1000 !important;
 }
 .owl-prev {
   left: 3vw;
 }
 .owl-next {
   right: 3vw;
-} */
+}
+.pos {
+  position: relative;
+  z-index: 300;
+}
