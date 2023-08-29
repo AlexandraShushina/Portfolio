@@ -1,4 +1,4 @@
-$(function() {
+$(document).ready(function() {
     // Owl Carousel
     var owl = $(".owl-carousel");
     owl.owlCarousel({
