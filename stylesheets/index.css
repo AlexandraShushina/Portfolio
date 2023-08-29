@@ -259,3 +259,15 @@ span {
     cursor: pointer;
     top: calc((100vh - 5.98vw)/2);
 } */
+/* .owl-prev, .owl-next {
+  position: absolute;
+  top: 50%;
+  margin-top: -10px;
+  z-index: 400;
+}
+.owl-prev {
+  left: 3vw;
+}
+.owl-next {
+  right: 3vw;
+} */
