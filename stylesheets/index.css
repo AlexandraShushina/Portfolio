@@ -85,6 +85,10 @@ p, a {
   padding-top: 0.s15vw;
 }
 /* Рамка с вытачками */
+frameWithRecesses {
+  position: relative;
+  z-index: 800; 
+ }
 .frameWidth {
   display: block;
   width: 100vw;
@@ -193,7 +197,7 @@ p, a {
     width: 50vw;
     height: 50vh;
     position: absolute;
-    z-index: 400;
+    z-index: 1200;
     left: 25vw;
     top: 20vh;
     background-repeat: no-repeat;
@@ -251,10 +255,6 @@ span {
     cursor: pointer;
     top: calc((100vh - 5.98vw)/2);
 } */
-frameWithRecesses {
- position: relative;
- z-index: 800; 
-}
 /* Стрелки */
 button.owl-prev, button.owl-next {
   position: absolute;
