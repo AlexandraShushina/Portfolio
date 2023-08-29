@@ -11,8 +11,8 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
   margin: 0 auto;
   display: block;
   position: relative;
-  /* overflow-x: hidden;
-  overflow-y: hidden; */
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
  /* Текст */
 p, a {
@@ -73,7 +73,7 @@ p, a {
  }
 /* Дополнительные */
 .zIndex {
-  z-index: 100;
+  z-index: 4000;
 }
 .pPaddingLeft {
   padding-top: 1vw;
@@ -90,39 +90,51 @@ frameWithRecesses {
   z-index: 800; 
  }
 .frameWidth {
+  position: relative;
   display: block;
   width: 100vw;
   height: 1.5vw;
   background-color: #5F64E7;
-  position: relative;
+  z-index: 500;
 }
-  .frameHeight {
+.frameHeight {
+    position: relative;
     display: block;
     width: 1.5vw;
     height: 100vh;
     background-color: #5F64E7;
-    position: relative;
-  }
-  .framesHeightFlex {
+    z-index: 500;
+    margin-top: -6.3vw;
+}
+  /* .framesHeightFlex {
     display: flex;
     justify-content: space-between;
     margin-top: -6.3vw;
+  } */
+  .helppls {
+    margin-top: -100vh;
+    left: 98.5vw;
   }
   .recessLeftTop {
+    position: relative;
     width: 19.11vw;
     height: 4.84vw;
     background-image: url(../images/recessLeftTop.svg);
     background-size: contain;
     background-repeat: no-repeat;
+    z-index: 500;
   }
   .recessCenterTop {
+    position: relative;
     width: 10.83vw;
     height: 3.44vw;
     background-image: url(../images/recessCenterTop.svg);
     background-size: contain;
     background-repeat: no-repeat;
+    z-index: 500;
   }
   .recessRightTop {
+    position: relative;
     width: 19.11vw;
     height: 4.95vw;
     background-image: url(../images/recessRightTop.svg);
@@ -130,30 +142,39 @@ frameWithRecesses {
     background-repeat: no-repeat;
     background-position: right 0;
     background-repeat: no-repeat;
+    z-index: 500;
   }
   .recessesTopFlex {
+    position: relative;
     display: flex;
     justify-content: space-between;
     margin-top: -1.6vw;
+    z-index: 500;
   }
   .recessLeftBottom {
+    position: relative;
     width: 19.84vw;
     height: 7.50vw;
     background-image: url(../images/recessLeftBottom.svg);
     background-size: contain;
     background-repeat: no-repeat;
+    z-index: 500;
   }
   .recessRightBottom {
+    position: relative;
     width: 18.33vw;
     height: 7.50vw;
     background-image: url(../images/recessRightBottom.svg);
     background-size: contain;
     background-repeat: no-repeat;
+    z-index: 500;
   }
   .recessesBottomFlex {
+    position: relative;
     display: flex;
     justify-content: space-between;
     margin-top: -7.5vw;
+    z-index: 500;
   }
   .frameWidthBottomPosition {
     display: block;
@@ -214,22 +235,24 @@ frameWithRecesses {
     height: 100vh;
   } */
   #firstSlide {
+    position: relative;
     background-image: url(../images/photoSequence.jpg);
     background-repeat: no-repeat;
     background-image: cover;
     background-position: center;
     width: 100vw;
     height: 100vh;
-    z-index: -200;
+    z-index: -700;
   }
   #secondSlide {
+    position: relative;
     background-image: url(../images/photoSequence2.jpg);
     background-repeat: no-repeat;
     background-image: cover;
     background-position: center;
     width: 100vw;
     height: 100vh;
-    z-index: -200;
+    z-index: -700;
   }
 /* .owl-prev, .owl-next {
     height: 6.2vw;
@@ -268,3 +291,13 @@ span {
 .owl-next {
   right: 3vw;
 } */
+.changePosition {
+  position: absolute;
+  margin-top: -60vh;
+  margin-left: -46.5vw;
+}
+.changePosition2 {
+  position: absolute;
+  margin-top: -60vh;
+  margin-left: 43.5vw;
+}
