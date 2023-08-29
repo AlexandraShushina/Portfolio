@@ -1,27 +1,27 @@
 /* Стили для всего документа */
 body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
-    margin: 0 auto;
-    display: block;
-    position: relative;
-  }
-  .main {
-    width: 100vw;
-    height: 100vh;
-    background-color: var(--blue);
-    margin: 0 auto;
-    display: block;
-    position: relative;
-    overflow-x: hidden;
-    overflow-y: hidden;
-  }
+  margin: 0 auto;
+  display: block;
+  position: relative;
+}
+.main {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--blue);
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  /* overflow-x: hidden;
+  overflow-y: hidden; */
+}
  /* Текст */
- p, a {
+p, a {
   text-decoration: none;
   color: var(--white);
   font-size: 0.83vw;
   font-weight: 600;
   line-height: 130%;
- }
+}
  h1 {
   font-size: 13.02vw;
   font-family: Vela Sans;
@@ -85,13 +85,13 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
   padding-top: 0.15vw;
 }
 /* Рамка с вытачками */
-  .frameWidth {
-    display: block;
-    width: 100vw;
-    height: 1.5vw;
-    background-color: #5F64E7;
-    position: relative;
-  }
+.frameWidth {
+  display: block;
+  width: 100vw;
+  height: 1.5vw;
+  background-color: #5F64E7;
+  position: relative;
+}
   .frameHeight {
     display: block;
     width: 1.5vw;
@@ -173,7 +173,7 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
     background-image: url(../images/arrow.svg);
     background-size: 100%;
   }
-  .photoSequence {
+  /* .photoSequence {
     width: 100vw;
     height: 100vh;
     top: -100vh;
@@ -183,7 +183,7 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
     z-index: -50;
     background-repeat: no-repeat;
     background-position: center;
-  }
+  } */
   .hiddenRectangle:hover ~ .photoSequence {
     background-image: url(../images/whiteTransperent.svg), url(../images/photoSequence.jpg);
     transition-delay: 0.2s;
@@ -208,6 +208,54 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
     top: 20vh;
     background-repeat: no-repeat;
   }
-  .align {
-    padding-top: 20vh;
+  .home-demo {
+    top: -100vh;
+    position: relative;
+    z-index: -50;
+    width: 100vw;
+    height: 100vh;
   }
+  /* .item {
+    width: 100vw;
+    height: 100vh;
+  } */
+  #firstSlide {
+    background-image: url(../images/photoSequence.jpg);
+    background-repeat: no-repeat;
+    background-image: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+  }
+  #secondSlide {
+    background-image: url(../images/photoSequence2.jpg);
+    background-repeat: no-repeat;
+    background-image: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+  }
+/* .owl-prev, .owl-next {
+    height: 6.2vw;
+    position: absolute;
+    width: 3vw;
+    cursor: pointer;
+    top: calc((100vh - 5.98vw)/2);
+}
+.owl-prev {
+  background: url(../images/arrowLeft.svg) no-repeat center !important;
+  background-size: 100% !important;
+  left: 2.92vw;
+}
+.owl-next {
+  background: url(../images/arrowRight.svg) no-repeat center !important;
+  background-size: 100%;
+  right: 2.92vw;
+}
+span {
+  height: 6.2vw;
+    position: absolute;
+    width: 3vw;
+    cursor: pointer;
+    top: calc((100vh - 5.98vw)/2);
+} */
