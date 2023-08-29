@@ -1,0 +1,49 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 1em;
+    background-color: #222;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    line-height: 1.75;
+    color: #ddd;
+  }
+  .wrapper {
+    background-color: #181818;
+    width: calc(520px + 2em);
+    margin: 2em auto;
+    padding: 1em;
+    border-radius: 10px;
+    // resize: both;
+    // overflow: auto;
+  }
+  .my-slider {
+    margin-block: 1em;
+  }
+  a {
+    color: #25f;
+  }
+  button {
+    all: initial;
+    display: inline-block;
+    margin: 0.5em 0.5em 0.5em 0;
+    padding: 0.25em 0.5em;
+    font-size: 1.25em;
+    line-height: 1;
+    border-radius: 3px;
+    background-color: #25f;
+    color: #eee;
+  }
+  img,
+  .text {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  .text {
+    aspect-ratio: 8 / 5;
+    background-color: darkgreen;
+    padding: 2em;
+    font-size: 0.7em;
+  }
