@@ -1,296 +1,165 @@
-/* Стили для всего документа */
-body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
-  margin: 0 auto;
-  display: block;
-  position: relative;
+.hiddenRectangle {
+  width: 50vw;
+  height: 50vh;
+  position: absolute;
+  z-index: 1200;
+  left: 25vw;
+  top: 20vh;
+  background-repeat: no-repeat;
 }
-.main {
+#firstSlide {
+  position: relative;
+  background-image: url(../images/photoSequence.jpg);
+  background-repeat: no-repeat;
+  background-image: cover;
+  background-position: center;
   width: 100vw;
   height: 100vh;
-  background-color: var(--blue);
-  margin: 0 auto;
-  display: block;
-  position: relative;
-  overflow-x: hidden;
-  overflow-y: hidden;
+  z-index: -700;
 }
- /* Текст */
-p, a {
-  text-decoration: none;
-  color: var(--white);
-  font-size: 0.83vw;
-  font-weight: 600;
-  line-height: 130%;
-}
- h1 {
-  font-size: 13.02vw;
-  font-family: Vela Sans;
-  color: var(--blue);
-  font-weight: 500;
-  text-align: center;
- }
- h2 {
-  font-size: 5.21vw;
-  font-family: 'IBM Plex Serif';
-  color: var(--blue);
-  font-weight: 500;
-  text-align: center;
- }
- .pSmall {
-  font-size: 0.52vw;
- }
- .ibmPlexSerif {
-  font-family: 'IBM Plex Serif';
- }
- .velaSans {
-  font-family: 'Vela Sans';
- }
- /* Меню */
- .menuFlex {
-  display: flex;
-  gap: 1.5vw;
- }
- .menuPositionLeft {
-  margin-top: -3.7vw;
-  margin-left: 1.5vw;
+#secondSlide {
   position: relative;
- }
- .menuPositionLeftTop {
-  top: -0.8vw;
- }
- .menuPositionCenter {
-  top: -2.2vw;
-  left: 2.5vw;
-  position: relative;
- }
- .menuPositionRight {
-  margin-top: -3.7vw;
-  margin-left: 3vw;
-  position: relative;
- }
- .menuPositionRightTop {
-  top: -0.8vw;
- }
-/* Дополнительные */
-.zIndex {
-  z-index: 4000;
-}
-.pPaddingLeft {
-  padding-top: 1vw;
-}
-.pPaddingRight {
-  padding-top: 0.7vw;
-}
-.pSmallPadding {
-  padding-top: 0.s15vw;
-}
-/* Рамка с вытачками */
-frameWithRecesses {
-  position: relative;
-  z-index: 800; 
- }
-.frameWidth {
-  position: relative;
-  display: block;
+  background-image: url(../images/photoSequence2.jpg);
+  background-repeat: no-repeat;
+  background-image: cover;
+  background-position: center;
   width: 100vw;
-  height: 1.5vw;
-  background-color: #5F64E7;
-  z-index: 500;
+  height: 100vh;
+  z-index: -700;
 }
-.frameHeight {
-    position: relative;
-    display: block;
-    width: 1.5vw;
-    height: 100vh;
-    background-color: #5F64E7;
-    z-index: 500;
-    margin-top: -6.3vw;
+#thirdSlide {
+  position: relative;
+  background-image: url(../images/photoSequence3.jpg);
+  background-repeat: no-repeat;
+  background-image: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  z-index: -700;
 }
-  /* .framesHeightFlex {
-    display: flex;
-    justify-content: space-between;
-    margin-top: -6.3vw;
-  } */
-  .helppls {
-    margin-top: -100vh;
-    left: 98.5vw;
-  }
-  .recessLeftTop {
-    position: relative;
-    width: 19.11vw;
-    height: 4.84vw;
-    background-image: url(../images/recessLeftTop.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    z-index: 500;
-  }
-  .recessCenterTop {
-    position: relative;
-    width: 10.83vw;
-    height: 3.44vw;
-    background-image: url(../images/recessCenterTop.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    z-index: 500;
-  }
-  .recessRightTop {
-    position: relative;
-    width: 19.11vw;
-    height: 4.95vw;
-    background-image: url(../images/recessRightTop.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: right 0;
-    background-repeat: no-repeat;
-    z-index: 500;
-  }
-  .recessesTopFlex {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    margin-top: -1.6vw;
-    z-index: 500;
-  }
-  .recessLeftBottom {
-    position: relative;
-    width: 19.84vw;
-    height: 7.50vw;
-    background-image: url(../images/recessLeftBottom.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    z-index: 500;
-  }
-  .recessRightBottom {
-    position: relative;
-    width: 18.33vw;
-    height: 7.50vw;
-    background-image: url(../images/recessRightBottom.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    z-index: 500;
-  }
-  .recessesBottomFlex {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    margin-top: -7.5vw;
-    z-index: 500;
-  }
-  .frameWidthBottomPosition {
-    display: block;
-  }
-  /* Фото */
-  .portret {
-    width: 2vw;
-    height: 2.9vw;
-    background-image: url(../images/portret.png);
-    background-size: 100%;
-  }
-  .qrTg {
-    width: 2.97vw;
-    height: 2.97vw;
-    background-image: url(../images/qrTg.svg);
-    background-size: 100%;
-  }
-  .arrow {
-    width: 9.22vw;
-    height: 0.63vw;
-    background-image: url(../images/arrow.svg);
-    background-size: 100%;
-  }
-  /* Здесь должны быть ховеры, по которым становится виден текст и ещё второй фон */
-  .hiddenRectangle:hover ~ #firstSlide {
-    background-image: url(../images/whiteTransperent.svg), url(../images/photoSequence.jpg);
-    transition-delay: 0.2s;
-    transition-duration: 0.4s;
-    /* transition-timing-function: ease-in-out; */
-  }
-  #firstSlide h1, #firstSlide h2 {
-    opacity: 0;
-  }
-  .hiddenRectangle:hover ~ #firstSlide h1,
-  .hiddenRectangle:hover ~ #firstSlide h2 {
-    transition-delay: 0.2s;
-    transition-duration: 0.4s;
-    opacity: 1;
-  }
-  .hiddenRectangle {
-    width: 50vw;
-    height: 50vh;
-    position: absolute;
-    z-index: 1200;
-    left: 25vw;
-    top: 20vh;
-    background-repeat: no-repeat;
-  }
-  /* Слайдер */
-  .home-demo {
-    top: -100vh;
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-  }
-  /* .item {
-    width: 100vw;
-    height: 100vh;
-  } */
-  #firstSlide {
-    position: relative;
-    background-image: url(../images/photoSequence.jpg);
-    background-repeat: no-repeat;
-    background-image: cover;
-    background-position: center;
-    width: 100vw;
-    height: 100vh;
-    z-index: -700;
-  }
-  #secondSlide {
-    position: relative;
-    background-image: url(../images/photoSequence2.jpg);
-    background-repeat: no-repeat;
-    background-image: cover;
-    background-position: center;
-    width: 100vw;
-    height: 100vh;
-    z-index: -700;
-  }
-/* .owl-prev, .owl-next {
-    height: 6.2vw;
-    position: absolute;
-    width: 3vw;
-    cursor: pointer;
-    top: calc((100vh - 5.98vw)/2);
+#fourthSlide {
+  position: relative;
+  background-image: url(../images/photoSequence4.jpg);
+  background-repeat: no-repeat;
+  background-image: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  z-index: -700;
 }
-.owl-prev {
-  background: url(../images/arrowLeft.svg) no-repeat center !important;
-  background-size: 100% !important;
-  left: 2.92vw;
+#fifthSlide {
+  position: relative;
+  background-image: url(../images/photoSequence5.jpg);
+  background-repeat: no-repeat;
+  background-image: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  z-index: -700;
 }
-.owl-next {
-  background: url(../images/arrowRight.svg) no-repeat center !important;
-  background-size: 100%;
-  right: 2.92vw;
+#sixthSlide {
+  position: relative;
+  background-image: url(../images/photoSequence6.jpg);
+  background-repeat: no-repeat;
+  background-image: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  z-index: -700;
 }
-span {
-  height: 6.2vw;
-    position: absolute;
-    width: 3vw;
-    cursor: pointer;
-    top: calc((100vh - 5.98vw)/2);
-} */
-/* Стрелки */
-/* button.owl-prev, button.owl-next {
-  position: absolute;
-  top: 45%;
-  margin-top: -10px;
-  z-index: 1000 !important;
+#seventhSlide {
+  position: relative;
+  background-image: url(../images/photoSequence7.jpg);
+  background-repeat: no-repeat;
+  background-image: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  z-index: -700;
 }
-.owl-prev {
-  left: 3vw;
+#eigthSlide {
+  position: relative;
+  background-image: url(../images/photoSequence8.jpg);
+  background-repeat: no-repeat;
+  background-image: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  z-index: -700;
 }
-.owl-next {
-  right: 3vw;
-} */
+#ninthSlide {
+  position: relative;
+  background-image: url(../images/photoSequence9.jpg);
+  background-repeat: no-repeat;
+  background-image: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  z-index: -700;
+}
+/* Здесь должны быть ховеры, по которым становится виден текст и ещё второй фон */
+.hiddenRectangle:hover ~ #firstSlide {
+  background-image: url(../images/whiteTransperent.svg), url(../images/photoSequence.jpg);
+  transition-delay: 0.2s;
+  transition-duration: 0.4s;
+}
+.hiddenRectangle:hover ~ #secondSlide {
+  background-image: url(../images/whiteTransperent.svg), url(../images/photoSequence.jpg);
+  transition-delay: 0.2s;
+  transition-duration: 0.4s;
+}
+.hiddenRectangle:hover ~ #thirdSlide {
+  background-image: url(../images/whiteTransperent.svg), url(../images/photoSequence.jpg);
+  transition-delay: 0.2s;
+  transition-duration: 0.4s;
+}
+.hiddenRectangle:hover ~ #fourthSlide {
+  background-image: url(../images/whiteTransperent.svg), url(../images/photoSequence.jpg);
+  transition-delay: 0.2s;
+  transition-duration: 0.4s;
+}
+.hiddenRectangle:hover ~ #fifthSlide {
+  background-image: url(../images/whiteTransperent.svg), url(../images/photoSequence.jpg);
+  transition-delay: 0.2s;
+  transition-duration: 0.4s;
+}
+.hiddenRectangle:hover ~ #sixthSlide {
+  background-image: url(../images/whiteTransperent.svg), url(../images/photoSequence.jpg);
+  transition-delay: 0.2s;
+  transition-duration: 0.4s;
+}
+.hiddenRectangle:hover ~ #seventhSlide {
+  background-image: url(../images/whiteTransperent.svg), url(../images/photoSequence.jpg);
+  transition-delay: 0.2s;
+  transition-duration: 0.4s;
+}
+.hiddenRectangle:hover ~ #eighthSlide {
+  background-image: url(../images/whiteTransperent.svg), url(../images/photoSequence.jpg);
+  transition-delay: 0.2s;
+  transition-duration: 0.4s;
+}
+.hiddenRectangle:hover ~ #ninthSlide {
+  background-image: url(../images/whiteTransperent.svg), url(../images/photoSequence.jpg);
+  transition-delay: 0.2s;
+  transition-duration: 0.4s;
+}
+.change h1, .change h2 {
+  opacity: 0;
+  top: 18vh;
+}
+.hiddenRectangle:hover ~ .change h1,
+.hiddenRectangle:hover ~ .change h2 {
+  transition-delay: 0.2s;
+  transition-duration: 0.4s;
+  opacity: 1;
+}
+/* Слайдер */
+.home-demo {
+  top: -100vh;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
 .changePosition {
   position: absolute;
   margin-top: -60vh;
