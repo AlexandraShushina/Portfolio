@@ -251,6 +251,10 @@ span {
     cursor: pointer;
     top: calc((100vh - 5.98vw)/2);
 } */
+frameWithRecesses {
+ position: relative;
+ z-index: 800; 
+}
 /* Стрелки */
 button.owl-prev, button.owl-next {
   position: absolute;
@@ -263,8 +267,4 @@ button.owl-prev, button.owl-next {
 }
 .owl-next {
   right: 3vw;
-}
-.pos {
-  position: relative;
-  z-index: 300;
 }
