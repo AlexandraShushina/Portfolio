@@ -7,7 +7,7 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
   .main {
     width: 100vw;
     height: 100vh;
-    background-color: white;
+    background-color: var(--blue);
     margin: 0 auto;
     display: block;
     position: relative;
