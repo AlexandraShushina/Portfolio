@@ -1,0 +1,200 @@
+/* Стили для всего документа */
+body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+  }
+  .main {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--blue);
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+   /* Текст */
+  p, a {
+    text-decoration: none;
+    color: var(--white);
+    font-size: 0.83vw;
+    font-weight: 600;
+    line-height: 130%;
+  }
+   h1 {
+    position: relative;
+    font-size: 13.02vw;
+    font-family: Vela Sans;
+    color: var(--blue);
+    font-weight: 500;
+    text-align: center;
+    z-index: 2;
+   }
+   h2 {
+    position: relative;
+    font-size: 5.21vw;
+    font-family: 'IBM Plex Serif';
+    color: var(--blue);
+    font-weight: 500;
+    text-align: center;
+    z-index: 2;
+   }
+   .pSmall {
+    font-size: 0.52vw;
+   }
+   .ibmPlexSerif {
+    font-family: 'IBM Plex Serif';
+   }
+   .velaSans {
+    font-family: 'Vela Sans';
+   }
+   /* Меню */
+   .menuFlex {
+    display: flex;
+    gap: 1.5vw;
+   }
+   .menuPositionLeft {
+    margin-top: -3.7vw;
+    margin-left: 1.5vw;
+    position: relative;
+   }
+   .menuPositionLeftTop {
+    top: -0.8vw;
+   }
+   .menuPositionCenter {
+    top: -2.2vw;
+    left: 2.5vw;
+    position: relative;
+   }
+   .menuPositionRight {
+    margin-top: -3.7vw;
+    margin-left: 3vw;
+    position: relative;
+   }
+   .menuPositionRightTop {
+    top: -0.8vw;
+   }
+  /* Дополнительные */
+  .zIndex {
+    z-index: 4000;
+  }
+  .pPaddingLeft {
+    padding-top: 1vw;
+  }
+  .pPaddingRight {
+    padding-top: 0.7vw;
+  }
+  .pSmallPadding {
+    padding-top: 0.s15vw;
+  }
+  /* Рамка с вытачками */
+  frameWithRecesses {
+    position: relative;
+    z-index: 800; 
+   }
+  .frameWidth {
+    position: relative;
+    display: block;
+    width: 100vw;
+    height: 1.5vw;
+    background-color: #5F64E7;
+    z-index: 500;
+  }
+  .frameHeight {
+    position: relative;
+    display: block;
+    width: 1.5vw;
+    height: 100vh;
+    background-color: #5F64E7;
+    z-index: 500;
+    margin-top: -6.3vw;
+  }
+  .helppls {
+    margin-top: -100vh;
+    left: 98.5vw;
+  }
+  .recessLeftTop {
+    position: relative;
+    width: 19.11vw;
+    height: 4.84vw;
+    background-image: url(../images/recessLeftTop.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 500;
+  }
+  .recessCenterTop {
+    position: relative;
+    width: 10.83vw;
+    height: 3.44vw;
+    background-image: url(../images/recessCenterTop.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 500;
+    }
+  .recessRightTop {
+    position: relative;
+    width: 19.11vw;
+    height: 4.95vw;
+    background-image: url(../images/recessRightTop.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right 0;
+    background-repeat: no-repeat;
+    z-index: 500;
+    }
+  .recessesTopFlex {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -1.6vw;
+    z-index: 500;
+  }
+  .recessLeftBottom {
+    position: relative;
+    width: 19.84vw;
+    height: 7.50vw;
+    background-image: url(../images/recessLeftBottom.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 500;
+  }
+  .recessRightBottom {
+    position: relative;
+    width: 18.33vw;
+    height: 7.50vw;
+    background-image: url(../images/recessRightBottom.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 500;
+  }
+  .recessesBottomFlex {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -7.5vw;
+    z-index: 500;
+  }
+  .frameWidthBottomPosition {
+    display: block;
+  }
+  /* Фото */
+  .portret {
+    width: 2vw;
+    height: 2.9vw;
+    background-image: url(../images/portret.png);
+    background-size: 100%;
+  }
+  .qrTg {
+    width: 2.97vw;
+    height: 2.97vw;
+    background-image: url(../images/qrTg.svg);
+    background-size: 100%;
+  }
+  .arrow {
+    width: 9.22vw;
+    height: 0.63vw;
+    background-image: url(../images/arrow.svg);
+    background-size: 100%;
+  }
+  
