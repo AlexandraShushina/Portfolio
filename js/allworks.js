@@ -3,8 +3,8 @@ $(document).ready(function() {
     var owl = $(".owl-carousel");
     owl.owlCarousel({
       items: 4,
-      margin: 1.56vw,
-      loop: true,
+      margin: 100,
+      loop: false,
       nav: true,
       navText: [
         '<svg class="changePosition" width="45" height="114" viewBox="0 0 45 114"><path d="M1.94563 56.1626L44.5915 1.46108L43.4085 0.538818L0.0543823 56.1488L43.4019 113.452L44.5981 112.547L1.94563 56.1626Z" fill="white"/></svg>',
