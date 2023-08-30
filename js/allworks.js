@@ -3,12 +3,12 @@ $(document).ready(function() {
     var owl = $(".owl-carousel");
     owl.owlCarousel({
       items: 4,
-      margin: 100,
+      margin: 8,
       loop: false,
       nav: true,
       navText: [
-        '<svg class="changePosition" width="45" height="114" viewBox="0 0 45 114"><path d="M1.94563 56.1626L44.5915 1.46108L43.4085 0.538818L0.0543823 56.1488L43.4019 113.452L44.5981 112.547L1.94563 56.1626Z" fill="white"/></svg>',
-        '<svg class="changePosition2" width="45" height="114" viewBox="0 0 45 114"><path d="M43.0544 56.1626L0.408509 1.46108L1.59149 0.538818L44.9456 56.1488L1.59814 113.452L0.401855 112.547L43.0544 56.1626Z" fill="white"/></svg>'
+        '<svg class="changePosition" width="1.5vw" height="3vw" viewBox="0 0 18 44"><path d="M2.28595 21.6902L17.9363 1.45887L16.7498 0.541077L0.400131 21.6765L16.7432 43.4502L17.9429 42.5497L2.28595 21.6902Z" fill="white"/></svg>',
+        '<svg class="changePosition2" width="1.5vw" height="3vw" viewBox="0 0 18 44"><path d="M16.0571 21.6902L0.406754 1.45887L1.5932 0.541077L17.9429 21.6765L1.59981 43.4502L0.400146 42.5497L16.0571 21.6902Z" fill="white"/></svg>'
       ],
       dots: false,
       mouseDrag: false,
