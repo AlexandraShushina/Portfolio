@@ -1,15 +1,135 @@
 .home-demo {
     position: relative;
     /* background-color: var(--white); */
-    width: 95vw;
+    width: 90vw;
     height: 38.02vw;
     top: -100vh;
     z-index: 900;
+    margin: calc((100vh - 38vw)/2) auto;
 }
-.item {
+.change {
+    border-radius: 1.56vw;
     position: relative;
     background-color: var(--white);
-    width: 23.85vw;
-    height: 38.02vw;
+    width: 20.94vw;
+    height: 38.5vw;
     z-index: 900;
 }
+.changePosition {
+    position: absolute;
+    margin-top: -45vh;
+    margin-left: -48vw;
+  }
+  .changePosition2 {
+    position: absolute;
+    margin-top: -45vh;
+    margin-left: 46vw;
+  } 
+  .changeTop {
+    top: 2vw;
+  } 
+  .changeTop2 {
+    top: 2.3vw;
+  }
+  .firstPicture {
+    position: relative;
+    height: 26.20vw;
+    width: 18.65vw;
+    background-image: url(../images/selfCover.jpg);
+    z-index: 500;
+    background-size: 100%;
+    border-radius: 0.99vw;
+    margin: 0 auto;
+    top: 1.15vw;
+  }
+  .secondPicture {
+    position: relative;
+    height: 26.20vw;
+    width: 18.65vw;
+    background-image: url(../images/recircleCover.jpg);
+    z-index: 500;
+    background-size: 100%;
+    border-radius: 0.99vw;
+    margin: 0 auto;
+    top: 1.15vw;
+  }
+  .thirdPicture {
+    position: relative;
+    height: 26.20vw;
+    width: 18.65vw;
+    background-image: url(../images/lokoCover.jpg);
+    z-index: 500;
+    background-size: 100%;
+    border-radius: 0.99vw;
+    margin: 0 auto;
+    top: 1.15vw;
+  }
+  .fourthPicture {
+    position: relative;
+    height: 26.20vw;
+    width: 18.65vw;
+    background-image: url(../images/holdDearCover.jpg);
+    z-index: 500;
+    background-size: 100%;
+    border-radius: 0.99vw;
+    margin: 0 auto;
+    top: 1.15vw;
+  }
+  .fifthPicture {
+    position: relative;
+    height: 26.20vw;
+    width: 18.65vw;
+    background-image: url(../images/selfCover.jpg);
+    z-index: 500;
+    background-size: 100%;
+    border-radius: 0.99vw;
+    margin: 0 auto;
+    top: 1.15vw;
+  }
+  .sixthPicture {
+    position: relative;
+    height: 26.20vw;
+    width: 18.65vw;
+    background-image: url(../images/selfCover.jpg);
+    z-index: 500;
+    background-size: 100%;
+    border-radius: 0.99vw;
+    margin: 0 auto;
+    top: 1.15vw;
+  }
+  .seventhPicture {
+    position: relative;
+    height: 26.20vw;
+    width: 18.65vw;
+    background-image: url(../images/selfCover.jpg);
+    z-index: 500;
+    background-size: 100%;
+    border-radius: 0.99vw;
+    margin: 0 auto;
+    top: 1.15vw;
+  }
+  .eighthPicture {
+    position: relative;
+    height: 26.20vw;
+    width: 18.65vw;
+    background-image: url(../images/selfCover.jpg);
+    z-index: 500;
+    background-size: 100%;
+    border-radius: 0.99vw;
+    margin: 0 auto;
+    top: 1.15vw;
+  }
+  .recessSmall {
+    position: relative;
+    width: 8.44vw;
+    height: 2.29vw;
+    background-image: url(../images/recessSmall.svg);
+    background-size: 100%;
+    top: 23.95vw;
+    margin: 0 auto;
+  }
+  .recessSmall p {
+    color: var(--blue);
+    text-align: center;
+    padding-top: 0.85vw;
+  }
