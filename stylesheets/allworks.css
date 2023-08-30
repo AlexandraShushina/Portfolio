@@ -1,0 +1,15 @@
+.home-demo {
+    position: relative;
+    /* background-color: var(--white); */
+    width: 95vw;
+    height: 38.02vw;
+    top: -100vh;
+    z-index: 900;
+}
+.item {
+    position: relative;
+    background-color: var(--white);
+    width: 23.85vw;
+    height: 38.02vw;
+    z-index: 900;
+}
