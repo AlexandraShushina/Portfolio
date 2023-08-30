@@ -144,8 +144,10 @@
   transition-duration: 0.4s;
 }
 .change h1, .change h2 {
+  top: calc((100vh - 29vw)/2);
+}
+.change h1, .change h2 {
   opacity: 0;
-  top: 18vh;
 }
 .hiddenRectangle:hover ~ .change h1,
 .hiddenRectangle:hover ~ .change h2 {
