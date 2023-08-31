@@ -14,9 +14,9 @@ $(document).ready(function() {
       mouseDrag: false,
       touchDrag: false,
       autoplay: true,
-      autoplayTimeout: 4000,
+      autoplayTimeout: 5000,
       smartSpeed: 300,
-      autoplayHoverPause: true,
+      // autoplayHoverPause: true,
     });
   });
   
