@@ -1,0 +1,11 @@
+.bubble {
+    width: 5.57vw;
+    height: 2.50vw;
+    background-image: url(../images/bubble.svg);
+    background-size: 100%;
+    margin-top: -1.7vw;
+}
+/* Меню */
+.menuFlex2 {
+    display: flex;
+}
